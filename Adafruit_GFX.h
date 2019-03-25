@@ -180,7 +180,7 @@ class Adafruit_GFX_Button {
   uint16_t      _outlinecolor, _fillcolor, _textcolor;
   char          _label[10];
 
-  boolean currstate, laststate;
+  boolean currstate=false, laststate=false;
 };
 
 
